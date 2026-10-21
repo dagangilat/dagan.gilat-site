@@ -1,0 +1,60 @@
+@import "../../_globalColor";
+
+.dreamless-main {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.dreamless-banner {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+.dreamless-banner:hover {
+  transform: translateY(-3px);
+}
+.dreamless-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dreamless-text {
+  max-width: 52rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: $subTitle;
+}
+.dreamless-text.dark-mode {
+  color: $textColorDark;
+}
+.dreamless-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: $titleColor;
+  margin: 0 0 0.75rem;
+}
+.dark-mode .dreamless-title {
+  color: $textColorDark;
+}
+.dreamless-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+.dreamless-links a {
+  color: $buttonColor;
+  font-weight: 600;
+}
+.dark-mode .dreamless-links a {
+  color: #5fd0c8;
+}
+@media (max-width: 768px) {
+  .dreamless-title {
+    font-size: 1.4rem;
+  }
+  .dreamless-text {
+    font-size: 1rem;
+  }
+}

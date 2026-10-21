@@ -35,7 +35,7 @@ const greeting = {
 // Social Media Links
 const socialMediaLinks = {
   github: "https://github.com/dagangilat",
-  //linkedin: "https://www.linkedin.com/in/dagangilat/",
+  linkedin: "https://www.linkedin.com/in/dagangilat/",
   gmail: "dagan.gilat@gmail.com",
   //gitlab: "https://gitlab.com/dagangilat",
   //facebook: "https://www.facebook.com/dagan.gilat",
